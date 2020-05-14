@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator UI Design</title>
+  <link rel="stylesheet" href="cal.css">
+
+</head>
+<body>
+    <!-- <h1 class="arr">Simple Calculator</h1><br> -->
+    <form class="calculator" name="cal">
+      <input class="alp" type="text" name="txt" readonly="">
+      <span class="bravo rem" onclick="document.cal.txt.value =''">C</span>
+      <span class="bravo" onclick="document.cal.txt.value +='/'">/</span>
+      <span class="bravo" onclick="document.cal.txt.value +='*'">*</span>
+      <span class="bravo" onclick="document.cal.txt.value +='7'">7</span>
+      <span class="bravo" onclick="document.cal.txt.value +='8'">8</span>
+      <span class="bravo" onclick="document.cal.txt.value +='9'">9</span>
+      <span class="bravo" onclick="document.cal.txt.value +='-'">-</span>
+      <span class="bravo" onclick="document.cal.txt.value +='4'">4</span>
+      <span class="bravo" onclick="document.cal.txt.value +='5'">5</span>
+      <span class="bravo" onclick="document.cal.txt.value +='6'">6</span>
+      <span class="bravo plus" onclick="document.cal.txt.value +='+'">+</span>
+      <span class="bravo" onclick="document.cal.txt.value +='3'">3</span>
+      <span class="bravo" onclick="document.cal.txt.value +='2'">2</span>
+      <span class="bravo" onclick="document.cal.txt.value +='1'">1</span>
+      <span class="bravo" onclick="document.cal.txt.value +='0'">0</span>
+      <span class="bravo" onclick="document.cal.txt.value +='00'">00</span>
+      <span class="bravo" onclick="document.cal.txt.value +='.'">.</span>
+      <span class="bravo equal" onclick="document.cal.txt.value = eval(cal.txt.value)">=</span>
+    </form>
+  
+</body>
+</html>
